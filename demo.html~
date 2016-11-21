@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title> demo </title>
+   </head>
+   <body>
+     <div class="row">
+       <div class="large-3 collumns"> item 1 </div>
+       <div class="small-4 collumns"> item 2 </div>
+      </div>
+</body>
+</html>
