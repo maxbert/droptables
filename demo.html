@@ -1,17 +1,47 @@
+
 <!doctype html>
-<html>
-  <head class="no-js" lang="en" dir="ltr">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+<html class="no-js" lang="en" dir="ltr">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> demo </title>
-   </head>
-   <body>
-     <div class="row">
-       <div class="large-3 collumns"> item 1 </div>
-       <div class="large-4 collumns"> item 2 </div>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    The way foundation works is it allows you to divide the page into collumns
+    <div class="row">
+      <div class="large-12 columns">
+      <div class="small-6 columns">
+	<div class="primary callout">
+	Look this div is 6 columns wide
+	</div>
+	</div>
+      <div class="small-3 columns">
+	but this one is 3
+	</div>
+      <div class="small-3 columns">
+	also this one
+	</div>
       </div>
-</body>
+      <div class="large-6 columns">
+	<div class="medium-4 columns">
+	  This is a nested 4 collum inside a 6 one
+	  </div>
+	<div class="medium-2 columns">
+	  and this one is two
+	  </div>
+      </div>
+      </div>
+      Look at how it changes when you resize the page. This is beacuse the width is variable
+
+      
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
