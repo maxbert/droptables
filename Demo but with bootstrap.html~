@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo with bootstrap</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+        <ul class="nav nav-pills" style="width:100%;">
+  <li><a href="#">This </a></li>
+  <li><a href="#">Is A</a></li>
+  <li><a href="#">Menu</a></li>
+  <li><a href="#">It is</a></li>
+  <li><a href="#">A Good</a></li>
+  <li><a href="#">Menu</a></li>
+   <li><a href="#">You Must</a></li>
+    <li><a href="#">Love It fwfa	&#62</a></li>
+
+</ul>
+    Foundation is simply some CSS and java files that give you classes to create better web page. The essential part of foundation is the grid system. A div can become a row, and sub-divs can become columns of that row. Each page is a maximum of 12 columns long. The columns resize with the window and align based on how you set them. This allows for sites to look good no matter how large the browser is.
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="col-md-6 columns">
+	<div class="primary callout">
+	Look this div is 6 columns wide
+	</div>
+	</div>
+      <div class="col-md-3" style="border:1px solid black">
+	but this one is 3
+	</div>
+      <div class="col-md33" style="border:1px solid black">
+	also this one
+	</div>
+      </div>
+      <center> divs can be given a size depending on the content that goes there </center>
+      <center> <p> small </p> </center>
+    </div>
+    <div class="row">
+      <div class="col-lg-1">
+	<div class="col-sm-1" style="background-color:red">
+	  1
+	</div>
+	<div class="col-sm-1" style="background-color:blue">
+	  2
+	</div>
+	<div class="col-sm-1" style="background-color:green">
+	  3
+	</div>
+	<div class="col-sm-1" style="background-color:yellow">
+	  4
+	</div>
+	<div class="col-sm-1" style="background-color:purple">
+	  5
+	</div>
+	<div class="col-sm-1" style="background-color:teal">
+	  6
+	</div>
+	<div class="col-sm-1" style="background-color:aqua">
+	  7
+	</div>
+	<div class="col-sm-1" style="background-color:orange">
+	  8
+	</div>
+	<div class="col-sm-1" style="background-color:lime">
+	  9
+	</div>
+	<div class="col-sm-1" style="background-color:olive">
+	  10
+	</div>
+	<div class="col-sm-1" style="background-color:gray">
+	  11
+	</div>
+	<div class="col-sm-1" style="background-color:brown">
+	  12
+	</div>
+      </div>
+      </div>
+    <center> medium </center>
+    <div class="row">
+           <div class="col-lg-12">
+	<div class="col-md-1" style="background-color:red">
+	  1
+	</div>
+	<div class="col-md-1" style="background-color:blue">
+	  2
+	</div>
+	<div class="col-md-1" style="background-color:green">
+	  3
+	</div>
+	<div class="col-md-1" style="background-color:yellow">
+	  4
+	</div>
+	<div class="col-md-1" style="background-color:purple">
+	  5
+	</div>
+	<div class="col-md-1" style="background-color:teal">
+	  6
+	</div>
+	<div class="col-md-1" style="background-color:aqua">
+	  7
+	</div>
+	<div class="col-md-1" style="background-color:orange">
+	  8
+	</div>
+	<div class="col-md-1" style="background-color:lime">
+	  9
+	</div>
+	<div class="col-md-1" style="background-color:olive">
+	  10
+	</div>
+	<div class="col-md-1" style="background-color:gray">
+	  11
+	</div>
+	<div class="col-md-1" style="background-color:brown">
+	  12
+	</div>
+	   </div>
+	   </div>
+    <center> Large </center>
+    <div class="row>
+       <div class="col-lg-12">
+	<div class="col-lg-1" style="background-color:red">
+	  1
+	</div>
+	<div class="col-lg-1" style="background-color:blue">
+	  2
+	</div>
+	<div class="col-lg-1" style="background-color:green">
+	  3
+	</div>
+	<div class="col-lg-1" style="background-color:yellow">
+	  4
+	</div>
+	<div class="col-lg-1" style="background-color:purple">
+	  5
+	</div>
+	<div class="col-lg-1" style="background-color:teal">
+	  6
+	</div>
+	<div class="col-lg-1" style="background-color:aqua">
+	  7
+	</div>
+	<div class="col-lg-1" style="background-color:orange">
+	  8
+	</div>
+	<div class="col-lg-1" style="background-color:lime">
+	  9
+	</div>
+	<div class="col-lg-1" style="background-color:olive">
+	  10
+	</div>
+	<div class="col-lg-1" style="background-color:gray">
+	  11
+	</div>
+	<div class="col-lg-1" style="background-color:brown">
+	  12
+	</div>
+       </div>
+   
+      </div>
+</div>
+</div>
+Look at how it changes when you resize the page. This is beacuse the width of each column is variable. Small columns will always keep their horizontal allignment, but medium and large will go down as the page gets smaller to preserve content size.
+
+<br>
+
+
+<center>some examples!</center>
+<div class="show-for-small-only">
+  <div class="row">
+    <div class="large-12 columns">
+      this is a secret that cna only be seen on small screens
+    </div>
+  </div>
+</div>
+<div class="show-for-large-only">
+  <div class="row">
+    <div class="large-12 columns">
+      this is a secret that can only be seen on big screens look what happens when you resize the window
+    </div>
+  </div>
+</div>
+<div class="row">
+<div class="col-lg-12" style="border:1px solid black">
+  <div class="col-sm 3" style="border:1px solid black">
+        A nice button:
+        <a href="#" class="button">Button</a>
+      </div>
+  <div class=" col-sm 3" style="border:1px solid black">
+        Another One:
+        <a href="#" class="success button"> Button</a>
+      </div>
+      <div class="col-sm 3" style="border:1px solid black">  
+       Another One:
+      <a href="#" class="alert button"> Button</a>
+      </div>
+      <div class="col-sm 3" style="border:1px solid black">
+       Another One:
+       <a href="#" class="secondary button"> Button</a>
+      </div>
+</div>
+</div>
+<br>
+
+
+
+ 
+  </body>
+</html>
